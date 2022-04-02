@@ -1,7 +1,7 @@
 import FetchCardInfo from "./FetchCardInfo";
 
 const Home = () => {
-    const {data, isPending, error} = FetchCardInfo('http://localhost:8000/allGiftCards/');
+    const {data, isPending, error} = FetchCardInfo('http://localhost:8000/allGiftCards');
 
 
     return (

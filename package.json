@@ -14,9 +14,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "api": "json-server db.json -p 8000",
+    "api": "json-server --watch db.json --port 8000",
     "start": "react-scripts start",
-    "start:server": "json-server --watch db.json",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
