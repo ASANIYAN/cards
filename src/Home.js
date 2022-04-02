@@ -1,7 +1,7 @@
 import FetchCardInfo from "./FetchCardInfo";
 
 const Home = () => {
-    const {data, isPending, error} = FetchCardInfo('https://asaniyan.github.io/jsonapi/db.json');
+    const {data, isPending, error} = FetchCardInfo('../db.json');
 
 
     return (
